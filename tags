@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Descriptor	internal/gen/pb/proto/user.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:([]byte, []int)
+Descriptor	internal/gen/pb/proto/user.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:([]byte, []int)
+Descriptor	proto/user.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:([]byte, []int)
+Descriptor	proto/user.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:([]byte, []int)
+File_proto_user_proto	internal/gen/pb/proto/user.pb.go	/^var File_proto_user_proto protoreflect.FileDescriptor$/;"	v	package:user_proto
+File_proto_user_proto	proto/user.pb.go	/^var File_proto_user_proto protoreflect.FileDescriptor$/;"	v	package:user_proto
+GetMessage	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+GetMessage	proto/user.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+GetName	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+GetName	proto/user.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+Greeter	proto/user.proto	/^service Greeter {$/;"	s
+GreeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^type GreeterClient interface {$/;"	i	package:user_proto
+GreeterClient	proto/user_grpc.pb.go	/^type GreeterClient interface {$/;"	i	package:user_proto
+GreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type GreeterServer interface {$/;"	i	package:user_proto
+GreeterServer	proto/user_grpc.pb.go	/^type GreeterServer interface {$/;"	i	package:user_proto
+Greeter_ServiceDesc	internal/gen/pb/proto/user_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v	package:user_proto
+Greeter_ServiceDesc	proto/user_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v	package:user_proto
+HelloReply	internal/gen/pb/proto/user.pb.go	/^type HelloReply struct {$/;"	s	package:user_proto
+HelloReply	proto/user.pb.go	/^type HelloReply struct {$/;"	s	package:user_proto
+HelloReply	proto/user.proto	/^message HelloReply {$/;"	m
+HelloRequest	internal/gen/pb/proto/user.pb.go	/^type HelloRequest struct {$/;"	s	package:user_proto
+HelloRequest	proto/user.pb.go	/^type HelloRequest struct {$/;"	s	package:user_proto
+HelloRequest	proto/user.proto	/^message HelloRequest {$/;"	m
+Message	internal/gen/pb/proto/user.pb.go	/^	Message string `protobuf:"bytes,1,opt,name=message,proto3" json:"message,omitempty"`$/;"	m	struct:user_proto.HelloReply	typeref:typename:string
+Message	proto/user.pb.go	/^	Message string `protobuf:"bytes,1,opt,name=message,proto3" json:"message,omitempty"`$/;"	m	struct:user_proto.HelloReply	typeref:typename:string
+Name	internal/gen/pb/proto/user.pb.go	/^	Name string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`$/;"	m	struct:user_proto.HelloRequest	typeref:typename:string
+Name	proto/user.pb.go	/^	Name string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`$/;"	m	struct:user_proto.HelloRequest	typeref:typename:string
+NewGreeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f	package:user_proto	typeref:typename:GreeterClient
+NewGreeterClient	proto/user_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f	package:user_proto	typeref:typename:GreeterClient
+ProtoMessage	internal/gen/pb/proto/user.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloReply
+ProtoMessage	internal/gen/pb/proto/user.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloRequest
+ProtoMessage	proto/user.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloReply
+ProtoMessage	proto/user.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloRequest
+ProtoReflect	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:protoreflect.Message
+ProtoReflect	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:protoreflect.Message
+ProtoReflect	proto/user.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:protoreflect.Message
+ProtoReflect	proto/user.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:protoreflect.Message
+RegisterGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f	package:user_proto
+RegisterGreeterServer	proto/user_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f	package:user_proto
+Reset	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) Reset() {$/;"	f	unknown:user_proto.HelloReply
+Reset	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f	unknown:user_proto.HelloRequest
+Reset	proto/user.pb.go	/^func (x *HelloReply) Reset() {$/;"	f	unknown:user_proto.HelloReply
+Reset	proto/user.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f	unknown:user_proto.HelloRequest
+SayHello	internal/gen/pb/proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) /;"	f	unknown:user_proto.UnimplementedGreeterServer	typeref:typename:(*HelloReply, error)
+SayHello	internal/gen/pb/proto/user_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption)/;"	f	unknown:user_proto.greeterClient	typeref:typename:(*HelloReply, error)
+SayHello	proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) /;"	f	unknown:user_proto.UnimplementedGreeterServer	typeref:typename:(*HelloReply, error)
+SayHello	proto/user_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption)/;"	f	unknown:user_proto.greeterClient	typeref:typename:(*HelloReply, error)
+String	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) String() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+String	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) String() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+String	proto/user.pb.go	/^func (x *HelloReply) String() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+String	proto/user.pb.go	/^func (x *HelloRequest) String() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+Test	internal/grpc/server.go	/^func Test() string{$/;"	f	package:grpc	typeref:typename:string
+UnimplementedGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	s	package:user_proto
+UnimplementedGreeterServer	proto/user_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	s	package:user_proto
+UnsafeGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	i	package:user_proto
+UnsafeGreeterServer	proto/user_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	i	package:user_proto
+_	internal/gen/pb/proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c	package:user_proto
+_	internal/gen/pb/proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c	package:user_proto
+_	internal/gen/pb/proto/user_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c	package:user_proto
+_	proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c	package:user_proto
+_	proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c	package:user_proto
+_	proto/user_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c	package:user_proto
+_Greeter_SayHello_Handler	internal/gen/pb/proto/user_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error/;"	f	package:user_proto	typeref:typename:(interface{}, error)
+_Greeter_SayHello_Handler	proto/user_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error/;"	f	package:user_proto	typeref:typename:(interface{}, error)
+cc	internal/gen/pb/proto/user_grpc.pb.go	/^	cc grpc.ClientConnInterface$/;"	m	struct:user_proto.greeterClient	typeref:typename:grpc.ClientConnInterface
+cc	proto/user_grpc.pb.go	/^	cc grpc.ClientConnInterface$/;"	m	struct:user_proto.greeterClient	typeref:typename:grpc.ClientConnInterface
+codes	internal/gen/pb/proto/user_grpc.pb.go	/^	codes "google.golang.org\/grpc\/codes"$/;"	P	package:google.golang.org/grpc/codes
+codes	proto/user_grpc.pb.go	/^	codes "google.golang.org\/grpc\/codes"$/;"	P	package:google.golang.org/grpc/codes
+context	internal/gen/pb/proto/user_grpc.pb.go	/^	context "context"$/;"	P	package:context
+context	proto/user_grpc.pb.go	/^	context "context"$/;"	P	package:context
+file_proto_user_proto_depIdxs	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_depIdxs = []int32{$/;"	v	package:user_proto
+file_proto_user_proto_depIdxs	proto/user.pb.go	/^var file_proto_user_proto_depIdxs = []int32{$/;"	v	package:user_proto
+file_proto_user_proto_goTypes	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_goTypes = []interface{}{$/;"	v	package:user_proto
+file_proto_user_proto_goTypes	proto/user.pb.go	/^var file_proto_user_proto_goTypes = []interface{}{$/;"	v	package:user_proto
+file_proto_user_proto_init	internal/gen/pb/proto/user.pb.go	/^func file_proto_user_proto_init() {$/;"	f	package:user_proto
+file_proto_user_proto_init	proto/user.pb.go	/^func file_proto_user_proto_init() {$/;"	f	package:user_proto
+file_proto_user_proto_msgTypes	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v	package:user_proto
+file_proto_user_proto_msgTypes	proto/user.pb.go	/^var file_proto_user_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v	package:user_proto
+file_proto_user_proto_rawDesc	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_rawDesc = []byte{$/;"	v	package:user_proto
+file_proto_user_proto_rawDesc	proto/user.pb.go	/^var file_proto_user_proto_rawDesc = []byte{$/;"	v	package:user_proto
+file_proto_user_proto_rawDescData	internal/gen/pb/proto/user.pb.go	/^	file_proto_user_proto_rawDescData = file_proto_user_proto_rawDesc$/;"	v	package:user_proto
+file_proto_user_proto_rawDescData	proto/user.pb.go	/^	file_proto_user_proto_rawDescData = file_proto_user_proto_rawDesc$/;"	v	package:user_proto
+file_proto_user_proto_rawDescGZIP	internal/gen/pb/proto/user.pb.go	/^func file_proto_user_proto_rawDescGZIP() []byte {$/;"	f	package:user_proto	typeref:typename:[]byte
+file_proto_user_proto_rawDescGZIP	proto/user.pb.go	/^func file_proto_user_proto_rawDescGZIP() []byte {$/;"	f	package:user_proto	typeref:typename:[]byte
+file_proto_user_proto_rawDescOnce	internal/gen/pb/proto/user.pb.go	/^	file_proto_user_proto_rawDescOnce sync.Once$/;"	v	package:user_proto
+file_proto_user_proto_rawDescOnce	proto/user.pb.go	/^	file_proto_user_proto_rawDescOnce sync.Once$/;"	v	package:user_proto
+greeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^type greeterClient struct {$/;"	s	package:user_proto
+greeterClient	proto/user_grpc.pb.go	/^type greeterClient struct {$/;"	s	package:user_proto
+grpc	internal/gen/pb/proto/user_grpc.pb.go	/^	grpc "google.golang.org\/grpc"$/;"	P	package:google.golang.org/grpc
+grpc	internal/grpc/server.go	/^package grpc$/;"	p
+grpc	proto/user_grpc.pb.go	/^	grpc "google.golang.org\/grpc"$/;"	P	package:google.golang.org/grpc
+grpc.Test	internal/grpc/server.go	/^func Test() string{$/;"	f	package:grpc	typeref:typename:string
+init	internal/gen/pb/proto/user.pb.go	/^func init() { file_proto_user_proto_init() }$/;"	f	package:user_proto
+init	proto/user.pb.go	/^func init() { file_proto_user_proto_init() }$/;"	f	package:user_proto
+main	cmd/main.go	/^func main(){$/;"	f	package:main
+main	cmd/main.go	/^package main$/;"	p
+main.main	cmd/main.go	/^func main(){$/;"	f	package:main
+mustEmbedUnimplementedGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f	unknown:user_proto.UnimplementedGreeterServer
+mustEmbedUnimplementedGreeterServer	proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f	unknown:user_proto.UnimplementedGreeterServer
+proto	proto/user.proto	/^package proto;$/;"	p
+protoimpl	internal/gen/pb/proto/user.pb.go	/^	protoimpl "google.golang.org\/protobuf\/runtime\/protoimpl"$/;"	P	package:google.golang.org/protobuf/runtime/protoimpl
+protoimpl	proto/user.pb.go	/^	protoimpl "google.golang.org\/protobuf\/runtime\/protoimpl"$/;"	P	package:google.golang.org/protobuf/runtime/protoimpl
+protoreflect	internal/gen/pb/proto/user.pb.go	/^	protoreflect "google.golang.org\/protobuf\/reflect\/protoreflect"$/;"	P	package:google.golang.org/protobuf/reflect/protoreflect
+protoreflect	proto/user.pb.go	/^	protoreflect "google.golang.org\/protobuf\/reflect\/protoreflect"$/;"	P	package:google.golang.org/protobuf/reflect/protoreflect
+reflect	internal/gen/pb/proto/user.pb.go	/^	reflect "reflect"$/;"	P	package:reflect
+reflect	proto/user.pb.go	/^	reflect "reflect"$/;"	P	package:reflect
+sizeCache	internal/gen/pb/proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.SizeCache
+sizeCache	internal/gen/pb/proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.SizeCache
+sizeCache	proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.SizeCache
+sizeCache	proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.SizeCache
+state	internal/gen/pb/proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.MessageState
+state	internal/gen/pb/proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.MessageState
+state	proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.MessageState
+state	proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.MessageState
+status	internal/gen/pb/proto/user_grpc.pb.go	/^	status "google.golang.org\/grpc\/status"$/;"	P	package:google.golang.org/grpc/status
+status	proto/user_grpc.pb.go	/^	status "google.golang.org\/grpc\/status"$/;"	P	package:google.golang.org/grpc/status
+sync	internal/gen/pb/proto/user.pb.go	/^	sync "sync"$/;"	P	package:sync
+sync	proto/user.pb.go	/^	sync "sync"$/;"	P	package:sync
+unknownFields	internal/gen/pb/proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.UnknownFields
+unknownFields	internal/gen/pb/proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.UnknownFields
+unknownFields	proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.UnknownFields
+unknownFields	proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.UnknownFields
+user_proto	internal/gen/pb/proto/user.pb.go	/^package user_proto$/;"	p
+user_proto	internal/gen/pb/proto/user_grpc.pb.go	/^package user_proto$/;"	p
+user_proto	proto/user.pb.go	/^package user_proto$/;"	p
+user_proto	proto/user_grpc.pb.go	/^package user_proto$/;"	p
+user_proto.File_proto_user_proto	internal/gen/pb/proto/user.pb.go	/^var File_proto_user_proto protoreflect.FileDescriptor$/;"	v	package:user_proto
+user_proto.File_proto_user_proto	proto/user.pb.go	/^var File_proto_user_proto protoreflect.FileDescriptor$/;"	v	package:user_proto
+user_proto.GreeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^type GreeterClient interface {$/;"	i	package:user_proto
+user_proto.GreeterClient	proto/user_grpc.pb.go	/^type GreeterClient interface {$/;"	i	package:user_proto
+user_proto.GreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type GreeterServer interface {$/;"	i	package:user_proto
+user_proto.GreeterServer	proto/user_grpc.pb.go	/^type GreeterServer interface {$/;"	i	package:user_proto
+user_proto.Greeter_ServiceDesc	internal/gen/pb/proto/user_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v	package:user_proto
+user_proto.Greeter_ServiceDesc	proto/user_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v	package:user_proto
+user_proto.HelloReply	internal/gen/pb/proto/user.pb.go	/^type HelloReply struct {$/;"	s	package:user_proto
+user_proto.HelloReply	proto/user.pb.go	/^type HelloReply struct {$/;"	s	package:user_proto
+user_proto.HelloReply.Descriptor	internal/gen/pb/proto/user.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:([]byte, []int)
+user_proto.HelloReply.Descriptor	proto/user.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:([]byte, []int)
+user_proto.HelloReply.GetMessage	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.GetMessage	proto/user.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.Message	internal/gen/pb/proto/user.pb.go	/^	Message string `protobuf:"bytes,1,opt,name=message,proto3" json:"message,omitempty"`$/;"	m	struct:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.Message	proto/user.pb.go	/^	Message string `protobuf:"bytes,1,opt,name=message,proto3" json:"message,omitempty"`$/;"	m	struct:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.ProtoMessage	internal/gen/pb/proto/user.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloReply
+user_proto.HelloReply.ProtoMessage	proto/user.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloReply
+user_proto.HelloReply.ProtoReflect	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:protoreflect.Message
+user_proto.HelloReply.ProtoReflect	proto/user.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:protoreflect.Message
+user_proto.HelloReply.Reset	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) Reset() {$/;"	f	unknown:user_proto.HelloReply
+user_proto.HelloReply.Reset	proto/user.pb.go	/^func (x *HelloReply) Reset() {$/;"	f	unknown:user_proto.HelloReply
+user_proto.HelloReply.String	internal/gen/pb/proto/user.pb.go	/^func (x *HelloReply) String() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.String	proto/user.pb.go	/^func (x *HelloReply) String() string {$/;"	f	unknown:user_proto.HelloReply	typeref:typename:string
+user_proto.HelloReply.sizeCache	internal/gen/pb/proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.SizeCache
+user_proto.HelloReply.sizeCache	proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.SizeCache
+user_proto.HelloReply.state	internal/gen/pb/proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.MessageState
+user_proto.HelloReply.state	proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.MessageState
+user_proto.HelloReply.unknownFields	internal/gen/pb/proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.UnknownFields
+user_proto.HelloReply.unknownFields	proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloReply	typeref:typename:protoimpl.UnknownFields
+user_proto.HelloRequest	internal/gen/pb/proto/user.pb.go	/^type HelloRequest struct {$/;"	s	package:user_proto
+user_proto.HelloRequest	proto/user.pb.go	/^type HelloRequest struct {$/;"	s	package:user_proto
+user_proto.HelloRequest.Descriptor	internal/gen/pb/proto/user.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:([]byte, []int)
+user_proto.HelloRequest.Descriptor	proto/user.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:([]byte, []int)
+user_proto.HelloRequest.GetName	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.GetName	proto/user.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.Name	internal/gen/pb/proto/user.pb.go	/^	Name string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`$/;"	m	struct:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.Name	proto/user.pb.go	/^	Name string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`$/;"	m	struct:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.ProtoMessage	internal/gen/pb/proto/user.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloRequest
+user_proto.HelloRequest.ProtoMessage	proto/user.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f	unknown:user_proto.HelloRequest
+user_proto.HelloRequest.ProtoReflect	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:protoreflect.Message
+user_proto.HelloRequest.ProtoReflect	proto/user.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:protoreflect.Message
+user_proto.HelloRequest.Reset	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f	unknown:user_proto.HelloRequest
+user_proto.HelloRequest.Reset	proto/user.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f	unknown:user_proto.HelloRequest
+user_proto.HelloRequest.String	internal/gen/pb/proto/user.pb.go	/^func (x *HelloRequest) String() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.String	proto/user.pb.go	/^func (x *HelloRequest) String() string {$/;"	f	unknown:user_proto.HelloRequest	typeref:typename:string
+user_proto.HelloRequest.sizeCache	internal/gen/pb/proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.SizeCache
+user_proto.HelloRequest.sizeCache	proto/user.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.SizeCache
+user_proto.HelloRequest.state	internal/gen/pb/proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.MessageState
+user_proto.HelloRequest.state	proto/user.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.MessageState
+user_proto.HelloRequest.unknownFields	internal/gen/pb/proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.UnknownFields
+user_proto.HelloRequest.unknownFields	proto/user.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:user_proto.HelloRequest	typeref:typename:protoimpl.UnknownFields
+user_proto.NewGreeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f	package:user_proto	typeref:typename:GreeterClient
+user_proto.NewGreeterClient	proto/user_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f	package:user_proto	typeref:typename:GreeterClient
+user_proto.RegisterGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f	package:user_proto
+user_proto.RegisterGreeterServer	proto/user_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f	package:user_proto
+user_proto.UnimplementedGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	s	package:user_proto
+user_proto.UnimplementedGreeterServer	proto/user_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	s	package:user_proto
+user_proto.UnimplementedGreeterServer.SayHello	internal/gen/pb/proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) /;"	f	unknown:user_proto.UnimplementedGreeterServer	typeref:typename:(*HelloReply, error)
+user_proto.UnimplementedGreeterServer.SayHello	proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) /;"	f	unknown:user_proto.UnimplementedGreeterServer	typeref:typename:(*HelloReply, error)
+user_proto.UnimplementedGreeterServer.mustEmbedUnimplementedGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f	unknown:user_proto.UnimplementedGreeterServer
+user_proto.UnimplementedGreeterServer.mustEmbedUnimplementedGreeterServer	proto/user_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f	unknown:user_proto.UnimplementedGreeterServer
+user_proto.UnsafeGreeterServer	internal/gen/pb/proto/user_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	i	package:user_proto
+user_proto.UnsafeGreeterServer	proto/user_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	i	package:user_proto
+user_proto._	internal/gen/pb/proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c	package:user_proto
+user_proto._	internal/gen/pb/proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c	package:user_proto
+user_proto._	internal/gen/pb/proto/user_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c	package:user_proto
+user_proto._	proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c	package:user_proto
+user_proto._	proto/user.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c	package:user_proto
+user_proto._	proto/user_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c	package:user_proto
+user_proto._Greeter_SayHello_Handler	internal/gen/pb/proto/user_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error/;"	f	package:user_proto	typeref:typename:(interface{}, error)
+user_proto._Greeter_SayHello_Handler	proto/user_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error/;"	f	package:user_proto	typeref:typename:(interface{}, error)
+user_proto.file_proto_user_proto_depIdxs	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_depIdxs = []int32{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_depIdxs	proto/user.pb.go	/^var file_proto_user_proto_depIdxs = []int32{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_goTypes	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_goTypes = []interface{}{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_goTypes	proto/user.pb.go	/^var file_proto_user_proto_goTypes = []interface{}{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_init	internal/gen/pb/proto/user.pb.go	/^func file_proto_user_proto_init() {$/;"	f	package:user_proto
+user_proto.file_proto_user_proto_init	proto/user.pb.go	/^func file_proto_user_proto_init() {$/;"	f	package:user_proto
+user_proto.file_proto_user_proto_msgTypes	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_msgTypes	proto/user.pb.go	/^var file_proto_user_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDesc	internal/gen/pb/proto/user.pb.go	/^var file_proto_user_proto_rawDesc = []byte{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDesc	proto/user.pb.go	/^var file_proto_user_proto_rawDesc = []byte{$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDescData	internal/gen/pb/proto/user.pb.go	/^	file_proto_user_proto_rawDescData = file_proto_user_proto_rawDesc$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDescData	proto/user.pb.go	/^	file_proto_user_proto_rawDescData = file_proto_user_proto_rawDesc$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDescGZIP	internal/gen/pb/proto/user.pb.go	/^func file_proto_user_proto_rawDescGZIP() []byte {$/;"	f	package:user_proto	typeref:typename:[]byte
+user_proto.file_proto_user_proto_rawDescGZIP	proto/user.pb.go	/^func file_proto_user_proto_rawDescGZIP() []byte {$/;"	f	package:user_proto	typeref:typename:[]byte
+user_proto.file_proto_user_proto_rawDescOnce	internal/gen/pb/proto/user.pb.go	/^	file_proto_user_proto_rawDescOnce sync.Once$/;"	v	package:user_proto
+user_proto.file_proto_user_proto_rawDescOnce	proto/user.pb.go	/^	file_proto_user_proto_rawDescOnce sync.Once$/;"	v	package:user_proto
+user_proto.greeterClient	internal/gen/pb/proto/user_grpc.pb.go	/^type greeterClient struct {$/;"	s	package:user_proto
+user_proto.greeterClient	proto/user_grpc.pb.go	/^type greeterClient struct {$/;"	s	package:user_proto
+user_proto.greeterClient.SayHello	internal/gen/pb/proto/user_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption)/;"	f	unknown:user_proto.greeterClient	typeref:typename:(*HelloReply, error)
+user_proto.greeterClient.SayHello	proto/user_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption)/;"	f	unknown:user_proto.greeterClient	typeref:typename:(*HelloReply, error)
+user_proto.greeterClient.cc	internal/gen/pb/proto/user_grpc.pb.go	/^	cc grpc.ClientConnInterface$/;"	m	struct:user_proto.greeterClient	typeref:typename:grpc.ClientConnInterface
+user_proto.greeterClient.cc	proto/user_grpc.pb.go	/^	cc grpc.ClientConnInterface$/;"	m	struct:user_proto.greeterClient	typeref:typename:grpc.ClientConnInterface
+user_proto.init	internal/gen/pb/proto/user.pb.go	/^func init() { file_proto_user_proto_init() }$/;"	f	package:user_proto
+user_proto.init	proto/user.pb.go	/^func init() { file_proto_user_proto_init() }$/;"	f	package:user_proto
